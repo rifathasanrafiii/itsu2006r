@@ -1,0 +1,7 @@
+ID,Risk,Likelihood 1-5,Impact 1-5,Score,Response,Proposed owner,Verification
+R1,Chatbot gives incorrect order or refund advice,4,4,16,Use approved knowledge base and human handoff for uncertain answers,To confirm,Review test questions against policy
+R2,Customer personal information is exposed in prompts or logs,3,5,15,Minimise collected data restrict access and review retention,To confirm,Privacy review of data map and log settings
+R3,Prompt injection changes bot behaviour,3,4,12,Separate untrusted input from instructions and test adversarial cases,To confirm,Security test record
+R4,Integration with order system fails or returns stale status,3,4,12,Use authenticated interface fallback message and monitoring,To confirm,Integration test and outage drill
+R5,Customers cannot reach a human agent,3,4,12,Provide visible escalation path and service-hour notice,To confirm,Handoff scenario test
+R6,Schedule slips because shared work is late,4,3,12,Assign owners dependencies and early review checkpoints,Whole group,Weekly board and milestone review

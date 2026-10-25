@@ -1,0 +1,9 @@
+ID,Activity,Start,Finish,Dependency,Proposed owner,Deliverable
+1,Charter and approval,2027-01-04,2027-01-08,,Project manager and sponsor,Approved charter
+2,Requirements and FAQ source review,2027-01-11,2027-01-15,1,Support lead,Approved intent and data list
+3,Conversation and handoff design,2027-01-18,2027-01-22,2,Support lead,Reviewed conversation flows
+4,API and privacy-security design,2027-01-18,2027-01-22,2,Technical lead,Integration and data design
+5,Prototype configuration and content,2027-01-25,2027-02-05,3;4,Technical lead and support lead,Limited prototype
+6,Functional security and accessibility tests,2027-02-08,2027-02-12,5,Tester and reviewers,Test results and defect list
+7,Controlled pilot and feedback,2027-02-15,2027-02-19,6,Sponsor and pilot users,Pilot findings
+8,Evaluation and handover,2027-02-22,2027-02-26,7,Project manager,Go-no-go decision and handover pack
